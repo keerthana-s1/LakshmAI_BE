@@ -1,0 +1,6 @@
+@BESandbox_HostAddress = http://localhost:5142
+
+GET {{BESandbox_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
