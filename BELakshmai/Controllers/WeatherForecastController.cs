@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace BESandbox.Controllers
+namespace BELakshmai.Controllers
 {
     [ApiController]
     [Route("[controller]")]

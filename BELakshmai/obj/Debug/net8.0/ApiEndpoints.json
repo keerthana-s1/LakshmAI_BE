@@ -1,6 +1,6 @@
 [
   {
-    "ContainingType": "BESandbox.Controllers.AuthController",
+    "ContainingType": "BELakshmai.Controllers.AuthController",
     "Method": "Login",
     "RelativePath": "auth/login",
     "HttpMethod": "POST",
@@ -9,14 +9,30 @@
     "Parameters": [
       {
         "Name": "request",
-        "Type": "BESandbox.Controllers.LoginRequest",
+        "Type": "BELakshmai.Controllers.LoginRequest",
         "IsRequired": true
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "BESandbox.Controllers.ChatController",
+    "ContainingType": "BELakshmai.Controllers.ChatController",
+    "Method": "LoadHomeDashboard",
+    "RelativePath": "chat/LoadHomeDashboard",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "BELakshmai.Controllers.LoadHomeDashboardRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BELakshmai.Controllers.ChatController",
     "Method": "SendMessage",
     "RelativePath": "chat/send",
     "HttpMethod": "POST",
@@ -25,14 +41,14 @@
     "Parameters": [
       {
         "Name": "request",
-        "Type": "BESandbox.Controllers.ChatMessageRequest",
+        "Type": "BELakshmai.Controllers.ChatMessageRequest",
         "IsRequired": true
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "BESandbox.Controllers.WeatherForecastController",
+    "ContainingType": "BELakshmai.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",
     "HttpMethod": "GET",
@@ -41,7 +57,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[BESandbox.WeatherForecast, BESandbox, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[BELakshmai.WeatherForecast, BELakshmai, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",

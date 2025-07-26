@@ -491,24 +491,31 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\gokul\\.nuget\\packages\\": {}
+    "C:\\Users\\vskee\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Code\\Google AI hack app\\be-lakshmai\\BELakshmai\\BELakshmai.csproj",
+      "projectUniqueName": "D:\\AgenticA1_Hackathon\\LakshmAI\\LakshmAI_BE\\LakshmAI_BE\\BELakshmai\\BELakshmai.csproj",
       "projectName": "BELakshmai",
-      "projectPath": "D:\\Code\\Google AI hack app\\be-lakshmai\\BELakshmai\\BELakshmai.csproj",
-      "packagesPath": "C:\\Users\\gokul\\.nuget\\packages\\",
-      "outputPath": "D:\\Code\\Google AI hack app\\be-lakshmai\\BELakshmai\\obj\\",
+      "projectPath": "D:\\AgenticA1_Hackathon\\LakshmAI\\LakshmAI_BE\\LakshmAI_BE\\BELakshmai\\BELakshmai.csproj",
+      "packagesPath": "C:\\Users\\vskee\\.nuget\\packages\\",
+      "outputPath": "D:\\AgenticA1_Hackathon\\LakshmAI\\LakshmAI_BE\\LakshmAI_BE\\BELakshmai\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\gokul\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\vskee\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -553,24 +560,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[8.0.18, 8.0.18]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[8.0.18, 8.0.18]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[8.0.18, 8.0.18]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[8.0.18, 8.0.18]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"

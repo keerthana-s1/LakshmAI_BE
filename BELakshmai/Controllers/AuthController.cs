@@ -6,7 +6,7 @@ using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using System.Collections.Generic;
 
-namespace BESandbox.Controllers
+namespace BELakshmai.Controllers
 {
     [ApiController]
     [Route("auth")]
@@ -16,10 +16,10 @@ namespace BESandbox.Controllers
         public async Task<IActionResult> Login([FromBody] LoginRequest request)
         {
             // Use the password as the token for the external call
-            var token = request.Password;
+            var token = request.SessionId;
 
             // Prepare the URL
-            var url = $"http://localhost:8000/apps/fi-mcp/users/{request.UserId}/sessions/{token}";
+            var url = $"http://localhost:8000/apps/lakshmai-agent/users/{request.UserId}/sessions/{token}";
 
             // Prepare the body
             var body = new { additionalProp1 = new { } };
@@ -55,5 +55,7 @@ namespace BESandbox.Controllers
     {
         public string UserId { get; set; }
         public string Password { get; set; }
+
+        public string SessionId { get; set; }
     }
 }

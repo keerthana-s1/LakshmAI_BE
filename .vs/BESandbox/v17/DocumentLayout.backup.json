@@ -1,26 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\AgenticA1_Hackathon\\BESandbox\\",
+  "WorkspaceRootPath": "D:\\AgenticA1_Hackathon\\BELakshmai\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2E4E84AF-4D19-42FA-AB11-AC35AF92AAC2}|BESandbox\\BESandbox.csproj|d:\\agentica1_hackathon\\besandbox\\besandbox\\controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E4E84AF-4D19-42FA-AB11-AC35AF92AAC2}|BESandbox\\BESandbox.csproj|solutionrelative:besandbox\\controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2E4E84AF-4D19-42FA-AB11-AC35AF92AAC2}|BELakshmai\\BELakshmai.csproj|d:\\agentica1_hackathon\\BELakshmai\\BELakshmai\\controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E4E84AF-4D19-42FA-AB11-AC35AF92AAC2}|BELakshmai\\BELakshmai.csproj|solutionrelative:BELakshmai\\controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2E4E84AF-4D19-42FA-AB11-AC35AF92AAC2}|BESandbox\\BESandbox.csproj|d:\\agentica1_hackathon\\besandbox\\besandbox\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{2E4E84AF-4D19-42FA-AB11-AC35AF92AAC2}|BESandbox\\BESandbox.csproj|solutionrelative:besandbox\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{2E4E84AF-4D19-42FA-AB11-AC35AF92AAC2}|BELakshmai\\BELakshmai.csproj|d:\\agentica1_hackathon\\BELakshmai\\BELakshmai\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2E4E84AF-4D19-42FA-AB11-AC35AF92AAC2}|BELakshmai\\BELakshmai.csproj|solutionrelative:BELakshmai\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2E4E84AF-4D19-42FA-AB11-AC35AF92AAC2}|BESandbox\\BESandbox.csproj|d:\\agentica1_hackathon\\besandbox\\besandbox\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E4E84AF-4D19-42FA-AB11-AC35AF92AAC2}|BESandbox\\BESandbox.csproj|solutionrelative:besandbox\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2E4E84AF-4D19-42FA-AB11-AC35AF92AAC2}|BELakshmai\\BELakshmai.csproj|d:\\agentica1_hackathon\\BELakshmai\\BELakshmai\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E4E84AF-4D19-42FA-AB11-AC35AF92AAC2}|BELakshmai\\BELakshmai.csproj|solutionrelative:BELakshmai\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2E4E84AF-4D19-42FA-AB11-AC35AF92AAC2}|BESandbox\\BESandbox.csproj|d:\\agentica1_hackathon\\besandbox\\besandbox\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E4E84AF-4D19-42FA-AB11-AC35AF92AAC2}|BESandbox\\BESandbox.csproj|solutionrelative:besandbox\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2E4E84AF-4D19-42FA-AB11-AC35AF92AAC2}|BELakshmai\\BELakshmai.csproj|d:\\agentica1_hackathon\\BELakshmai\\BELakshmai\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E4E84AF-4D19-42FA-AB11-AC35AF92AAC2}|BELakshmai\\BELakshmai.csproj|solutionrelative:BELakshmai\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2E4E84AF-4D19-42FA-AB11-AC35AF92AAC2}|BESandbox\\BESandbox.csproj|d:\\agentica1_hackathon\\besandbox\\besandbox\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E4E84AF-4D19-42FA-AB11-AC35AF92AAC2}|BESandbox\\BESandbox.csproj|solutionrelative:besandbox\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2E4E84AF-4D19-42FA-AB11-AC35AF92AAC2}|BELakshmai\\BELakshmai.csproj|d:\\agentica1_hackathon\\BELakshmai\\BELakshmai\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E4E84AF-4D19-42FA-AB11-AC35AF92AAC2}|BELakshmai\\BELakshmai.csproj|solutionrelative:BELakshmai\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -40,10 +40,10 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\AgenticA1_Hackathon\\BESandbox\\BESandbox\\appsettings.json",
-              "RelativeDocumentMoniker": "BESandbox\\appsettings.json",
-              "ToolTip": "D:\\AgenticA1_Hackathon\\BESandbox\\BESandbox\\appsettings.json",
-              "RelativeToolTip": "BESandbox\\appsettings.json",
+              "DocumentMoniker": "D:\\AgenticA1_Hackathon\\BELakshmai\\BELakshmai\\appsettings.json",
+              "RelativeDocumentMoniker": "BELakshmai\\appsettings.json",
+              "ToolTip": "D:\\AgenticA1_Hackathon\\BELakshmai\\BELakshmai\\appsettings.json",
+              "RelativeToolTip": "BELakshmai\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-07-25T20:17:35.195Z",
@@ -53,10 +53,10 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "ChatController.cs",
-              "DocumentMoniker": "D:\\AgenticA1_Hackathon\\BESandbox\\BESandbox\\Controllers\\ChatController.cs",
-              "RelativeDocumentMoniker": "BESandbox\\Controllers\\ChatController.cs",
-              "ToolTip": "D:\\AgenticA1_Hackathon\\BESandbox\\BESandbox\\Controllers\\ChatController.cs",
-              "RelativeToolTip": "BESandbox\\Controllers\\ChatController.cs",
+              "DocumentMoniker": "D:\\AgenticA1_Hackathon\\BELakshmai\\BELakshmai\\Controllers\\ChatController.cs",
+              "RelativeDocumentMoniker": "BELakshmai\\Controllers\\ChatController.cs",
+              "ToolTip": "D:\\AgenticA1_Hackathon\\BELakshmai\\BELakshmai\\Controllers\\ChatController.cs",
+              "RelativeToolTip": "BELakshmai\\Controllers\\ChatController.cs",
               "ViewState": "AgIAAB8AAAAAAAAAAAAowDkAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-25T20:16:36.827Z",
@@ -66,10 +66,10 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "AuthController.cs",
-              "DocumentMoniker": "D:\\AgenticA1_Hackathon\\BESandbox\\BESandbox\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "BESandbox\\Controllers\\AuthController.cs",
-              "ToolTip": "D:\\AgenticA1_Hackathon\\BESandbox\\BESandbox\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "BESandbox\\Controllers\\AuthController.cs",
+              "DocumentMoniker": "D:\\AgenticA1_Hackathon\\BELakshmai\\BELakshmai\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "BELakshmai\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\AgenticA1_Hackathon\\BELakshmai\\BELakshmai\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "BELakshmai\\Controllers\\AuthController.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAAC0AAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-25T18:34:34.179Z",
@@ -79,10 +79,10 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\AgenticA1_Hackathon\\BESandbox\\BESandbox\\Program.cs",
-              "RelativeDocumentMoniker": "BESandbox\\Program.cs",
-              "ToolTip": "D:\\AgenticA1_Hackathon\\BESandbox\\BESandbox\\Program.cs",
-              "RelativeToolTip": "BESandbox\\Program.cs",
+              "DocumentMoniker": "D:\\AgenticA1_Hackathon\\BELakshmai\\BELakshmai\\Program.cs",
+              "RelativeDocumentMoniker": "BELakshmai\\Program.cs",
+              "ToolTip": "D:\\AgenticA1_Hackathon\\BELakshmai\\BELakshmai\\Program.cs",
+              "RelativeToolTip": "BELakshmai\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-25T18:23:54.989Z",
@@ -92,10 +92,10 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "WeatherForecastController.cs",
-              "DocumentMoniker": "D:\\AgenticA1_Hackathon\\BESandbox\\BESandbox\\Controllers\\WeatherForecastController.cs",
-              "RelativeDocumentMoniker": "BESandbox\\Controllers\\WeatherForecastController.cs",
-              "ToolTip": "D:\\AgenticA1_Hackathon\\BESandbox\\BESandbox\\Controllers\\WeatherForecastController.cs",
-              "RelativeToolTip": "BESandbox\\Controllers\\WeatherForecastController.cs",
+              "DocumentMoniker": "D:\\AgenticA1_Hackathon\\BELakshmai\\BELakshmai\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "BELakshmai\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "D:\\AgenticA1_Hackathon\\BELakshmai\\BELakshmai\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "BELakshmai\\Controllers\\WeatherForecastController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-25T18:05:32.145Z",
