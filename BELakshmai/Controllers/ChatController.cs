@@ -201,7 +201,9 @@ namespace BELakshmai.Controllers
                                     if (part["text"] != null)
                                     {
                                         var text = part["text"].ToString();
-                                        if (text.Contains("dashboardConfig"))
+                                        
+                                        // Look for JSON content that contains dashboard configuration
+                                        if (text.Contains("TextResp") || text.Contains("ChartConfigResp") || text.Contains("ToDoResp"))
                                         {
                                             try
                                             {
@@ -211,7 +213,114 @@ namespace BELakshmai.Controllers
                                                 if (jsonStart >= 0 && jsonEnd > jsonStart)
                                                 {
                                                     var jsonContent = text.Substring(jsonStart + 7, jsonEnd - jsonStart - 7).Trim();
-                                                    parsedConfig = JObject.Parse(jsonContent);
+                                                    var responseData = JObject.Parse(jsonContent);
+                                                    
+                                                    // Create dashboard configuration from the response data
+                                                    parsedConfig = new JObject
+                                                    {
+                                                        ["dashboardConfig"] = new JObject
+                                                        {
+                                                            ["theme"] = "light",
+                                                            ["currency"] = "₹",
+                                                            ["language"] = "en-IN",
+                                                            ["lastUpdated"] = DateTime.UtcNow.ToString("yyyy-MM-ddTHH:mm:ssZ")
+                                                        },
+                                                        ["dashboardWidgets"] = new JArray
+                                                        {
+                                                            new JObject
+                                                            {
+                                                                ["id"] = "financialProjection",
+                                                                ["title"] = "Financial Projection",
+                                                                ["type"] = "chart",
+                                                                ["chartType"] = "line",
+                                                                ["chartData"] = responseData["ChartConfigResp"]?["chartConfig"]?["data"] ?? new JObject(),
+                                                                ["currentValue"] = 750726,
+                                                                ["currency"] = "₹",
+                                                                ["changePercentage"] = 0.05,
+                                                                ["changeType"] = "positive"
+                                                            },
+                                                            new JObject
+                                                            {
+                                                                ["id"] = "textResponse",
+                                                                ["title"] = "Analysis",
+                                                                ["type"] = "text",
+                                                                ["content"] = responseData["TextResp"]?.ToString() ?? "",
+                                                                ["currentValue"] = 0,
+                                                                ["currency"] = "",
+                                                                ["changePercentage"] = 0,
+                                                                ["changeType"] = "neutral"
+                                                            },
+                                                            new JObject
+                                                            {
+                                                                ["id"] = "todoList",
+                                                                ["title"] = "Action Items",
+                                                                ["type"] = "list",
+                                                                ["items"] = responseData["ToDoResp"] ?? new JArray(),
+                                                                ["currentValue"] = 0,
+                                                                ["currency"] = "",
+                                                                ["changePercentage"] = 0,
+                                                                ["changeType"] = "neutral"
+                                                            }
+                                                        },
+                                                        ["userProfile"] = new JObject
+                                                        {
+                                                            ["name"] = "John Doe",
+                                                            ["phoneNumber"] = "9876543210",
+                                                            ["email"] = "john.doe@example.com",
+                                                            ["address"] = "123 Main St, Anytown",
+                                                            ["dob"] = "1990-01-01"
+                                                        },
+                                                        ["notifications"] = new JArray
+                                                        {
+                                                            new JObject
+                                                            {
+                                                                ["id"] = "notification1",
+                                                                ["type"] = "info",
+                                                                ["message"] = "Financial projection analysis completed.",
+                                                                ["date"] = DateTime.UtcNow.ToString("yyyy-MM-dd")
+                                                            }
+                                                        },
+                                                        ["quickActions"] = new JArray
+                                                        {
+                                                            new JObject
+                                                            {
+                                                                ["id"] = "quickAction1",
+                                                                ["label"] = "View Projection",
+                                                                ["icon"] = "chart"
+                                                            },
+                                                            new JObject
+                                                            {
+                                                                ["id"] = "quickAction2",
+                                                                ["label"] = "Update Goals",
+                                                                ["icon"] = "target"
+                                                            },
+                                                            new JObject
+                                                            {
+                                                                ["id"] = "quickAction3",
+                                                                ["label"] = "Track Progress",
+                                                                ["icon"] = "progress"
+                                                            }
+                                                        },
+                                                        ["dataSummary"] = new JObject
+                                                        {
+                                                            ["totalAssets"] = 794629,
+                                                            ["totalLiabilities"] = 75000,
+                                                            ["netWorth"] = 750726,
+                                                            ["creditScore"] = 746,
+                                                            ["totalTransactions"] = 100,
+                                                            ["investmentReturns"] = 0.05,
+                                                            ["epfBalance"] = 211111,
+                                                            ["stockHoldings"] = 200642,
+                                                            ["mutualFundValue"] = 177605,
+                                                            ["savingsBalance"] = 195297,
+                                                            ["usSecuritiesValue"] = 30071,
+                                                            ["creditCardOutstanding"] = 75000,
+                                                            ["totalCreditAccounts"] = 6,
+                                                            ["activeCreditAccounts"] = 6,
+                                                            ["lastDataUpdate"] = DateTime.UtcNow.ToString("yyyy-MM-ddTHH:mm:ssZ")
+                                                        }
+                                                    };
+                                                    
                                                     dashboardConfig = parsedConfig;
                                                     break; // Found the config, exit the loop
                                                 }

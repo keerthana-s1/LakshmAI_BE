@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\AgenticA1_Hackathon\\LakshmAI\\LakshmAI_BE\\LakshmAI_BE\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2E4E84AF-4D19-42FA-AB11-AC35AF92AAC2}|BELakshmai\\BELakshmai.csproj|d:\\agentica1_hackathon\\lakshmai\\lakshmai_be\\lakshmai_be\\belakshmai\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E4E84AF-4D19-42FA-AB11-AC35AF92AAC2}|BELakshmai\\BELakshmai.csproj|solutionrelative:belakshmai\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2E4E84AF-4D19-42FA-AB11-AC35AF92AAC2}|BELakshmai\\BELakshmai.csproj|d:\\agentica1_hackathon\\lakshmai\\lakshmai_be\\lakshmai_be\\belakshmai\\controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2E4E84AF-4D19-42FA-AB11-AC35AF92AAC2}|BELakshmai\\BELakshmai.csproj|solutionrelative:belakshmai\\controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E4E84AF-4D19-42FA-AB11-AC35AF92AAC2}|BELakshmai\\BELakshmai.csproj|d:\\agentica1_hackathon\\lakshmai\\lakshmai_be\\lakshmai_be\\belakshmai\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E4E84AF-4D19-42FA-AB11-AC35AF92AAC2}|BELakshmai\\BELakshmai.csproj|solutionrelative:belakshmai\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2E4E84AF-4D19-42FA-AB11-AC35AF92AAC2}|BELakshmai\\BELakshmai.csproj|d:\\agentica1_hackathon\\lakshmai\\lakshmai_be\\lakshmai_be\\belakshmai\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -29,7 +29,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -74,26 +74,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "ChatController.cs",
               "DocumentMoniker": "D:\\AgenticA1_Hackathon\\LakshmAI\\LakshmAI_BE\\LakshmAI_BE\\BELakshmai\\Controllers\\ChatController.cs",
               "RelativeDocumentMoniker": "BELakshmai\\Controllers\\ChatController.cs",
               "ToolTip": "D:\\AgenticA1_Hackathon\\LakshmAI\\LakshmAI_BE\\LakshmAI_BE\\BELakshmai\\Controllers\\ChatController.cs",
               "RelativeToolTip": "BELakshmai\\Controllers\\ChatController.cs",
-              "ViewState": "AgIAACUAAADANTMzMzMTwCwAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAADUAAADAZ2ZmZmYkwEkAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-26T11:41:54.087Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "AuthController.cs",
               "DocumentMoniker": "D:\\AgenticA1_Hackathon\\LakshmAI\\LakshmAI_BE\\LakshmAI_BE\\BELakshmai\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "BELakshmai\\Controllers\\AuthController.cs",
               "ToolTip": "D:\\AgenticA1_Hackathon\\LakshmAI\\LakshmAI_BE\\LakshmAI_BE\\BELakshmai\\Controllers\\AuthController.cs",
               "RelativeToolTip": "BELakshmai\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAAgAAACAMzMzMzMjwBUAAABBAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAACAMzMzMzMjwCIAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-26T11:38:47.897Z",
               "EditorCaption": ""

@@ -29,12 +29,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 4,
@@ -45,8 +41,7 @@
               "RelativeToolTip": "BELakshmai\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-26T18:52:10.47Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-26T18:52:10.47Z"
             },
             {
               "$type": "Document",
@@ -69,8 +64,7 @@
               "RelativeToolTip": "BELakshmai\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-07-26T11:58:41.942Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-26T11:58:41.942Z"
             },
             {
               "$type": "Document",
@@ -82,8 +76,7 @@
               "RelativeToolTip": "BELakshmai\\Controllers\\ChatController.cs",
               "ViewState": "AgIAADUAAADAZ2ZmZmYkwEkAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-26T11:41:54.087Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-26T11:41:54.087Z"
             },
             {
               "$type": "Document",
@@ -95,8 +88,11 @@
               "RelativeToolTip": "BELakshmai\\Controllers\\AuthController.cs",
               "ViewState": "AgIAAAgAAACAMzMzMzMjwCIAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-26T11:38:47.897Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-26T11:38:47.897Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }
